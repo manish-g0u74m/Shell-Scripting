@@ -18,7 +18,9 @@ name="Manish"
 age=22
 echo "My name is $name and my age is $age"
 ```
-
+```bash
+My name is Manish and my age is 22
+```
 ### 2. System Defined Variables (Environment Variables)
 Predefined by the system.
 
@@ -45,3 +47,4 @@ mydir=$(pwd)
 echo "Today is $today"
 echo "Current directory is $mydir"
 ```
+
