@@ -16,31 +16,40 @@ Everything written after `#` on the same line is treated as a comment.
 
 # This is a single-line comment
 echo "Hello World"   # This comment explains the echo command
+```
 
-'''bash
+```bash
 Hello World
+```
+## 2. Multi-line Comments
 
-Method 1: Using multiple # symbols
+There are multiple ways to write multi-line comments in shell scripts.
+
+### Method 1: Using multiple # symbols
+
+```bash
 #!/bin/bash
 
 # This is a multi-line comment
 # Each line starts with #
 # It is useful for longer explanations
 echo "Script executed"
+```
+### Method 2: Using a Here Document (** << 'EOF' **)
 
-Method 2: Using a Here Document (: << 'EOF')
+```bash
 #!/bin/bash
 
-: << 'END_COMMENT'
+<< 'END_COMMENT'
 This is a multi-line comment block
 It will be ignored by the shell
 You can write multiple lines here
 END_COMMENT
 
 echo "Multi-line comment example"
+```
+Output :
 
-
-Output:
-
+```bash
 Multi-line comment example
-
+```
