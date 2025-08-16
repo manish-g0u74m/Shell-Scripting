@@ -44,6 +44,7 @@ In this task, we will understand **what a Shell is, the different types of Shell
      ```
 
    📸 **Example Output:** 
-     '''sh
-      Hello, Manish!
-     ''' 
+     ```sh
+     Hello, Manish!
+     ```
+
